@@ -7,6 +7,18 @@ format: html
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
+## Showing the Margin 
+
+It is not professional to have your code run off the page. We are going to have R display the margin so we can avoid this in our rendered documents! 
+
+1. Go to Tools 
+2. Global Options 
+3. Click Code
+4. Click Display 
+5. Click Show Margin (Should have 80 margin column)
+
+Notice the line appear? It may be faint, but it's important. If your code (not writing) goes beyond this, it will appear off the page causing you to lose points on assignments (and your document will look sloppy).
+
 ## Packages for class
 
 ```{r}
