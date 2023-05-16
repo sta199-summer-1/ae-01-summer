@@ -1,11 +1,15 @@
 ---
 title: "Quarto & R Demo"
-format: html
+format: pdf
 ---
 
 ## Quarto is great
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Render
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. Note: if something is wrong with your code, your document will not render.
 
 ## Showing the Margin 
 
@@ -141,11 +145,6 @@ What if we want to add labels to our plot? How does the code change?
 
 ```
 
-
-
-## Render
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. Note: if something is wrong with your code, your document will not render.
 
 ## Optional
 
