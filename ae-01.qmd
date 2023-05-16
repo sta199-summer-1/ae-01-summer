@@ -34,6 +34,14 @@ What is a package? Why is it important we library packages?
 
 **Add Answer Here**
 
+## How to take notes for class 
+
+-- These AEs are for YOU 
+
+-- Use # within a code chunk to comment codes
+
+-- Scratch paper
+
 ## mtcars
 
 For the remainder of the class, we will use the `mtcars` data set. This is a prebuilt data set in R. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models).
@@ -57,7 +65,7 @@ You can run code in a few different ways. You can click the green arrow in the c
 I HIGHLY suggest using the posted cheat sheets throughout the session linked [here](https://sta199-summer-1.github.io/computing-cheatsheets.html). Before answering the next question, please follow the link and download the `dplyr` cheat sheet (top right). 
 
 
--   Now, filter out the any cars who weigh more than 4000 lbs *in a single pipeline*.
+-   Now, filter out the any cars who weigh more than 4000 lbs *in a single pipeline*. Note, wt is input in 1000s of lbs in the data set.
 
 Things to note: 
 
@@ -95,7 +103,7 @@ Now, filter out the any cars who weigh more than 4000 lbs and save the new data 
 
 ```
 
--   Using your new data set, take the mean weight of cars using the `summarise` function. Report the mean below. Hint, look up the help file to the function, and scroll down to the examples. You are also encouraged to use the cheet sheet.
+-   Using your new data set, take the mean weight of cars using the `summarise` function. Report the mean below. Hint, look up the help file to the function, and scroll down to the examples. You are also encouraged to use the cheat sheet.
 
 ```{r}
 
@@ -113,11 +121,9 @@ Let's make a plot of `mpg`. What are some plots that would be appropriate to cre
 **Add response**
 
 
-
-
 ## First Plot 
 
-Let's walk through the steps to create a boxplot
+Let's walk through the steps to create a boxplot. For this exercise, we will use the `mtcars` data set.
 
 ```{r}
 
